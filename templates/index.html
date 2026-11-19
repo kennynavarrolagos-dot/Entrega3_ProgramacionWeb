@@ -1,0 +1,4 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Inicio | Ejercicios Flask</title><link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}"></head>
+<body><main class="tarjeta inicio"><h1>Ejercicios con Flask</h1><p>Selecciona el ejercicio que deseas realizar.</p><nav class="menu"><a class="boton" href="{{ url_for('ejercicio1') }}">Ejercicio 1</a><a class="boton" href="{{ url_for('ejercicio2') }}">Ejercicio 2</a></nav><a class="enlace" href="{{ url_for('instrucciones') }}">Ver instrucciones</a></main></body></html>
